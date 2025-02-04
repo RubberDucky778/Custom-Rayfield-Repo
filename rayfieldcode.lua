@@ -552,26 +552,41 @@ local RayfieldLibrary = {
             InputStroke = Color3.fromRGB(80, 50, 120),
             PlaceholderColor = Color3.fromRGB(180, 140, 220)
         },
-        
-        -- Apply the glow effect
-        local function ApplyGlowEffect(element)
-            local blur = Instance.new("ImageLabel")
-            blur.Parent = element
-            blur.Size = UDim2.new(1, 10, 1, 10)
-            blur.Position = UDim2.new(0, -5, 0, -5)
-            blur.BackgroundTransparency = 1
-            blur.Image = "rbxassetid://5553949279"  -- Glow texture
-            blur.ImageColor3 = Color3.fromRGB(150, 50, 255)
-            blur.ImageTransparency = 0.5
-        end
-        
-        -- Apply the glow effect to relevant UI elements
-        for _, element in ipairs(Rayfield:GetDescendants()) do
-            if element:IsA("Frame") or element:IsA("TextLabel") or element:IsA("ImageLabel") then
-                ApplyGlowEffect(element)
-            end
-        end
-        
+
+		Custom = {
+            TextColor = Color3.fromRGB(255, 255, 255),
+			Background = Color3.fromRGB(50, 55, 60),
+			Topbar = Color3.fromRGB(80, 90, 100),
+			Shadow = Color3.fromRGB(40, 45, 50),
+			NotificationBackground = Color3.fromRGB(80, 90, 100),
+			NotificationActionsBackground = Color3.fromRGB(150, 160, 170),
+			TabBackground = Color3.fromRGB(80, 90, 100),
+			TabStroke = Color3.fromRGB(100, 110, 120),
+			TabBackgroundSelected = Color3.fromRGB(110, 120, 130),
+			TabTextColor = Color3.fromRGB(255, 255, 255),
+			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+			ElementBackground = Color3.fromRGB(100, 110, 120),
+			ElementBackgroundHover = Color3.fromRGB(110, 120, 130),
+			SecondaryElementBackground = Color3.fromRGB(120, 130, 140),
+			ElementStroke = Color3.fromRGB(130, 140, 150),
+			SecondaryElementStroke = Color3.fromRGB(140, 150, 160),
+			SliderBackground = Color3.fromRGB(150, 160, 170),
+			SliderProgress = Color3.fromRGB(160, 170, 180),
+			SliderStroke = Color3.fromRGB(170, 180, 190),
+			ToggleBackground = Color3.fromRGB(100, 110, 120),
+			ToggleEnabled = Color3.fromRGB(170, 180, 190),
+			ToggleDisabled = Color3.fromRGB(150, 160, 170),
+			ToggleEnabledStroke = Color3.fromRGB(180, 190, 200),
+			ToggleDisabledStroke = Color3.fromRGB(160, 170, 180),
+			ToggleEnabledOuterStroke = Color3.fromRGB(190, 200, 210),
+			ToggleDisabledOuterStroke = Color3.fromRGB(150, 160, 170),
+			DropdownSelected = Color3.fromRGB(100, 110, 120),
+			DropdownUnselected = Color3.fromRGB(120, 130, 140),
+			InputBackground = Color3.fromRGB(120, 130, 140),
+			InputStroke = Color3.fromRGB(140, 150, 160),
+			PlaceholderColor = Color3.fromRGB(210, 220, 230)
+        },
+     
 
 		Serenity = {
 			TextColor = Color3.fromRGB(50, 55, 60),
