@@ -512,7 +512,7 @@ local RayfieldLibrary = {
 		},
 
         DarkPurple = {
-            TextColor = Color3.fromRGB(220, 200, 255),
+            TextColor = Color3.fromRGB(255, 0, 255),
         
             Background = Color3.fromRGB(20, 10, 30),
             Topbar = Color3.fromRGB(35, 15, 50),
@@ -524,8 +524,8 @@ local RayfieldLibrary = {
             TabBackground = Color3.fromRGB(50, 20, 70),
             TabStroke = Color3.fromRGB(60, 30, 90),
             TabBackgroundSelected = Color3.fromRGB(100, 50, 150),
-            TabTextColor = Color3.fromRGB(230, 200, 255),
-            SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+            TabTextColor = Color3.fromRGB(255, 0, 255),
+            SelectedTabTextColor = Color3.fromRGB(255, 20, 147),
         
             ElementBackground = Color3.fromRGB(40, 20, 60),
             ElementBackgroundHover = Color3.fromRGB(50, 30, 80),
@@ -552,6 +552,25 @@ local RayfieldLibrary = {
             InputStroke = Color3.fromRGB(80, 50, 120),
             PlaceholderColor = Color3.fromRGB(180, 140, 220)
         },
+        
+        -- Apply the glow effect
+        local function ApplyGlowEffect(element)
+            local blur = Instance.new("ImageLabel")
+            blur.Parent = element
+            blur.Size = UDim2.new(1, 10, 1, 10)
+            blur.Position = UDim2.new(0, -5, 0, -5)
+            blur.BackgroundTransparency = 1
+            blur.Image = "rbxassetid://5553949279"  -- Glow texture
+            blur.ImageColor3 = Color3.fromRGB(150, 50, 255)
+            blur.ImageTransparency = 0.5
+        end
+        
+        -- Apply the glow effect to relevant UI elements
+        for _, element in ipairs(Rayfield:GetDescendants()) do
+            if element:IsA("Frame") or element:IsA("TextLabel") or element:IsA("ImageLabel") then
+                ApplyGlowEffect(element)
+            end
+        end
         
 
 		Serenity = {
