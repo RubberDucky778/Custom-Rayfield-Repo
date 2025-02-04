@@ -620,7 +620,7 @@ local RayfieldLibrary = {
 				InputStroke = Color3.fromRGB(140, 150, 160),
 				PlaceholderColor = Color3.fromRGB(210, 220, 230)
 			},
-			-- mixed red and orange colors
+			
 			RedOrange = {
                 TextColor = Color3.fromRGB(255, 255, 255),
 				Background = Color3.fromRGB(180, 100, 30),
