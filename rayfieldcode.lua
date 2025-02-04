@@ -622,45 +622,45 @@ local RayfieldLibrary = {
 			},
 			
 			RedOrangeTheme = {
-				TextColor = Color3.fromRGB(255, 100, 50),
+				TextColor = Color3.fromRGB(255, 80, 20),
 			
-				Background = Color3.fromRGB(30, 10, 10),
-				Topbar = Color3.fromRGB(50, 20, 10),
-				Shadow = Color3.fromRGB(20, 5, 5),
+				Background = Color3.fromRGB(50, 15, 10),
+				Topbar = Color3.fromRGB(80, 30, 20),
+				Shadow = Color3.fromRGB(30, 10, 5),
 			
-				NotificationBackground = Color3.fromRGB(40, 15, 10),
-				NotificationActionsBackground = Color3.fromRGB(255, 150, 100),
+				NotificationBackground = Color3.fromRGB(70, 25, 15),
+				NotificationActionsBackground = Color3.fromRGB(255, 140, 90),
 			
-				TabBackground = Color3.fromRGB(80, 30, 20),
-				TabStroke = Color3.fromRGB(100, 50, 30),
-				TabBackgroundSelected = Color3.fromRGB(180, 80, 40),
-				TabTextColor = Color3.fromRGB(255, 120, 90),
-				SelectedTabTextColor = Color3.fromRGB(255, 180, 120),
+				TabBackground = Color3.fromRGB(100, 40, 30),
+				TabStroke = Color3.fromRGB(120, 60, 40),
+				TabBackgroundSelected = Color3.fromRGB(200, 100, 50),
+				TabTextColor = Color3.fromRGB(255, 100, 50),
+				SelectedTabTextColor = Color3.fromRGB(255, 160, 100),
 			
-				ElementBackground = Color3.fromRGB(60, 20, 10),
-				ElementBackgroundHover = Color3.fromRGB(90, 40, 20),
-				SecondaryElementBackground = Color3.fromRGB(70, 30, 15),
-				ElementStroke = Color3.fromRGB(120, 60, 40),
-				SecondaryElementStroke = Color3.fromRGB(100, 50, 30),
+				ElementBackground = Color3.fromRGB(80, 30, 20),
+				ElementBackgroundHover = Color3.fromRGB(110, 50, 30),
+				SecondaryElementBackground = Color3.fromRGB(90, 40, 25),
+				ElementStroke = Color3.fromRGB(140, 80, 50),
+				SecondaryElementStroke = Color3.fromRGB(120, 60, 40),
 			
-				SliderBackground = Color3.fromRGB(200, 80, 40),
-				SliderProgress = Color3.fromRGB(230, 100, 50),
-				SliderStroke = Color3.fromRGB(255, 120, 60),
+				SliderBackground = Color3.fromRGB(220, 90, 40),
+				SliderProgress = Color3.fromRGB(250, 110, 50),
+				SliderStroke = Color3.fromRGB(255, 130, 70),
 			
-				ToggleBackground = Color3.fromRGB(50, 20, 10),
-				ToggleEnabled = Color3.fromRGB(255, 80, 40),
-				ToggleDisabled = Color3.fromRGB(120, 60, 50),
-				ToggleEnabledStroke = Color3.fromRGB(255, 100, 50),
-				ToggleDisabledStroke = Color3.fromRGB(140, 80, 60),
-				ToggleEnabledOuterStroke = Color3.fromRGB(180, 70, 40),
-				ToggleDisabledOuterStroke = Color3.fromRGB(120, 50, 30),
+				ToggleBackground = Color3.fromRGB(70, 30, 20),
+				ToggleEnabled = Color3.fromRGB(255, 90, 50),
+				ToggleDisabled = Color3.fromRGB(140, 70, 50),
+				ToggleEnabledStroke = Color3.fromRGB(255, 110, 60),
+				ToggleDisabledStroke = Color3.fromRGB(160, 90, 60),
+				ToggleEnabledOuterStroke = Color3.fromRGB(200, 80, 40),
+				ToggleDisabledOuterStroke = Color3.fromRGB(130, 60, 40),
 			
-				DropdownSelected = Color3.fromRGB(90, 40, 20),
-				DropdownUnselected = Color3.fromRGB(70, 30, 15),
+				DropdownSelected = Color3.fromRGB(110, 50, 30),
+				DropdownUnselected = Color3.fromRGB(90, 40, 25),
 			
-				InputBackground = Color3.fromRGB(80, 40, 20),
-				InputStroke = Color3.fromRGB(140, 70, 50),
-				PlaceholderColor = Color3.fromRGB(200, 120, 90)
+				InputBackground = Color3.fromRGB(100, 50, 30),
+				InputStroke = Color3.fromRGB(160, 80, 60),
+				PlaceholderColor = Color3.fromRGB(220, 140, 100)
 			},
 
 		Serenity = {
