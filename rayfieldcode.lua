@@ -666,7 +666,8 @@ local RayfieldLibrary = {
 			BlackOrangeTheme = {
 				TextColor = Color3.fromRGB(240, 240, 240),
 			
-				MainBackground = Color3.fromRGB(0, 0, 0),  -- Changed Background to MainBackground
+				MainBackground = Color3.fromRGB(0, 0, 0),
+				Background3 = Color3.fromRGB(10, 10, 10),  -- Added Background3
 				Topbar = Color3.fromRGB(25, 25, 25),
 				Shadow = Color3.fromRGB(10, 10, 10),
 			
@@ -704,7 +705,7 @@ local RayfieldLibrary = {
 				InputStroke = Color3.fromRGB(255, 165, 0),
 				PlaceholderColor = Color3.fromRGB(178, 178, 178)
 			},
-			
+					
 		Serenity = {
 			TextColor = Color3.fromRGB(50, 55, 60),
 			Background = Color3.fromRGB(240, 245, 250),
