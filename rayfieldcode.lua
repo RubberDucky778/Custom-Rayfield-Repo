@@ -663,47 +663,47 @@ local RayfieldLibrary = {
 				PlaceholderColor = Color3.fromRGB(220, 140, 100)
 			},
 
-			Limit = {
-				TextColor = Color3.fromRGB(240, 240, 240),  -- Light text color for contrast
-			
-				Background = Color3.fromRGB(0, 0, 0),  -- Black background
-				Topbar = Color3.fromRGB(25, 25, 25),  -- Slightly darker top bar
-				Shadow = Color3.fromRGB(10, 10, 10),  -- Dark shadow for depth
-			
-				NotificationBackground = Color3.fromRGB(20, 20, 20),  -- Dark background for notifications
-				NotificationActionsBackground = Color3.fromRGB(255, 165, 0),  -- Orange for notification actions
-			
-				TabBackground = Color3.fromRGB(30, 30, 30),  -- Dark tabs
-				TabStroke = Color3.fromRGB(255, 165, 0),  -- Orange stroke for tabs
-				TabBackgroundSelected = Color3.fromRGB(255, 165, 0),  -- Orange for selected tab
-				TabTextColor = Color3.fromRGB(255, 255, 255),  -- White text for tab
-				SelectedTabTextColor = Color3.fromRGB(50, 50, 50),  -- Dark text for selected tab
-			
-				ElementBackground = Color3.fromRGB(30, 30, 30),  -- Dark background for elements
-				ElementBackgroundHover = Color3.fromRGB(40, 40, 40),  -- Slightly lighter on hover
-				SecondaryElementBackground = Color3.fromRGB(20, 20, 20),  -- Darker background for secondary elements
-				ElementStroke = Color3.fromRGB(255, 165, 0),  -- Orange stroke for elements
-				SecondaryElementStroke = Color3.fromRGB(40, 40, 40),  -- Darker stroke for secondary elements
-			
-				SliderBackground = Color3.fromRGB(255, 165, 0),  -- Orange for slider background
-				SliderProgress = Color3.fromRGB(255, 140, 0),  -- Slightly lighter orange for progress
-				SliderStroke = Color3.fromRGB(255, 165, 0),  -- Orange stroke for the slider
-			
-				ToggleBackground = Color3.fromRGB(0, 0, 0),  -- Black toggle background
-				ToggleEnabled = Color3.fromRGB(255, 165, 0),  -- Orange toggle when enabled
-				ToggleDisabled = Color3.fromRGB(50, 50, 50),  -- Dark gray toggle when disabled
-				ToggleEnabledStroke = Color3.fromRGB(255, 140, 0),  -- Lighter orange stroke for enabled toggle
-				ToggleDisabledStroke = Color3.fromRGB(40, 40, 40),  -- Darker stroke for disabled toggle
-				ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),  -- Outer stroke when enabled
-				ToggleDisabledOuterStroke = Color3.fromRGB(50, 50, 50),  -- Outer stroke when disabled
-			
-				DropdownSelected = Color3.fromRGB(255, 165, 0),  -- Orange for selected dropdown items
-				DropdownUnselected = Color3.fromRGB(30, 30, 30),  -- Dark background for unselected dropdown items
-			
-				InputBackground = Color3.fromRGB(30, 30, 30),  -- Dark input background
-				InputStroke = Color3.fromRGB(255, 165, 0),  -- Orange stroke around input
-				PlaceholderColor = Color3.fromRGB(178, 178, 178)  -- Light gray placeholder text
-			},
+			BlackOrangeTheme = {
+    TextColor = Color3.fromRGB(240, 240, 240),
+
+    Background = Color3.fromRGB(0, 0, 0),
+    Topbar = Color3.fromRGB(25, 25, 25),
+    Shadow = Color3.fromRGB(10, 10, 10),
+
+    NotificationBackground = Color3.fromRGB(20, 20, 20),
+    NotificationActionsBackground = Color3.fromRGB(255, 165, 0),
+
+    TabBackground = Color3.fromRGB(30, 30, 30),
+    TabStroke = Color3.fromRGB(255, 165, 0),
+    TabBackgroundSelected = Color3.fromRGB(255, 165, 0),
+    TabTextColor = Color3.fromRGB(255, 255, 255),
+    SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+
+    ElementBackground = Color3.fromRGB(30, 30, 30),
+    ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+    SecondaryElementBackground = Color3.fromRGB(20, 20, 20),
+    ElementStroke = Color3.fromRGB(255, 165, 0),
+    SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+
+    SliderBackground = Color3.fromRGB(255, 165, 0),
+    SliderProgress = Color3.fromRGB(255, 140, 0),
+    SliderStroke = Color3.fromRGB(255, 165, 0),
+
+    ToggleBackground = Color3.fromRGB(0, 0, 0),
+    ToggleEnabled = Color3.fromRGB(255, 165, 0),
+    ToggleDisabled = Color3.fromRGB(50, 50, 50),
+    ToggleEnabledStroke = Color3.fromRGB(255, 140, 0),
+    ToggleDisabledStroke = Color3.fromRGB(40, 40, 40),
+    ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    ToggleDisabledOuterStroke = Color3.fromRGB(50, 50, 50),
+
+    DropdownSelected = Color3.fromRGB(255, 165, 0),
+    DropdownUnselected = Color3.fromRGB(30, 30, 30),
+
+    InputBackground = Color3.fromRGB(30, 30, 30),
+    InputStroke = Color3.fromRGB(255, 165, 0),
+    PlaceholderColor = Color3.fromRGB(178, 178, 178)
+},
 
 		Serenity = {
 			TextColor = Color3.fromRGB(50, 55, 60),
